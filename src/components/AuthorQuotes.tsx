@@ -20,7 +20,7 @@ const AuthorQuotes = () => {
       queryKey: ["author", author],
       enabled: author ? true : false,
       queryFn: getAuthorQuotes,
-      getNextPageParam: (lastPage, pages) => lastPage.data?.pagination.nextPage,
+      getNextPageParam: (lastPage) => lastPage.data?.pagination.nextPage,
     });
   return (
     <>

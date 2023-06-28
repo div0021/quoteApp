@@ -2,7 +2,7 @@ import { TfiReload } from "react-icons/tfi";
 import { Outlet } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import getQuotes from "./lib/getQuotes";
-import { useState, MouseEvent } from "react";
+import { useState } from "react";
 
 function App() {
   const { data, refetch, isLoading, isFetching } = useQuery({
@@ -13,7 +13,7 @@ function App() {
     window.matchMedia("(prefers-color-scheme:dark)").matches
   );
 
-  const handleClick = (e: MouseEvent<HTMLDivElement>) => {
+  const handleClick = () => {
     setDarkMode(!darkMode);
   };
   if (darkMode) {
