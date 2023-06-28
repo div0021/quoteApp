@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">👋👋🚀🚀😎😎 Todo App 👨🏽‍💻👨🏽‍💻😀😀🔥🔥</h1>
+<h1 align="center">👋👋🚀🚀😎😎 Random Quote Generator 👨🏽‍💻🚀🚀🔥🔥</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/div0021/todosChallange">
+    <a href="https://github.com/div0021/quoteApp">
       Solution
     </a>
     <span> | </span>
@@ -28,7 +28,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/div0021/todosChallange/blob/main/public/Screenshot.png)
+![screenshot](https://github.com/div0021/quoteApp/blob/main/public/Screenshot.png)
 
 
 
@@ -39,8 +39,6 @@
 - [React](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [Typescript](https://www.typescriptlang.org/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [lucide-icons](https://lucide.dev/)
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
@@ -55,7 +53,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/div0021/todosChallange.git
+$ git clone https://github.com/div0021/quoteApp.git
 
 # Install dependencies
 $ npm install
